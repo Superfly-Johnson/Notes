@@ -1,0 +1,26 @@
+#+TITLE: Superfly's emacs notes
+#+AUTHOR: Superfly Johnson
+#+DESCRIPTION: Superfly's emacs-related notes and documentation.\
+#+STARTUP: showeverything
+
+* TABLE OF CONTENTS                                                   :TOC_2:
+- [[#emacs-related-personalprivate-notes][Emacs-related personal/private notes]]
+- [[#default-keybinds][Default keybinds]]
+  - [[#commenting][Commenting]]
+- [[#org-ode-keybinds][Org-ode keybinds]]
+  - [[#add-tag][Add tag]]
+  - [[#creating-source-block][Creating source block]]
+
+* Emacs-related personal/private notes
+This file is meant as a reminder of things I often forget while using my favored text editor, emacs.
+* Default keybinds
+** Commenting
+*** Region
+C-space to select region or C-v in EVIL mode and
+C-x C-;
+
+* Org-ode keybinds
+** Add tag
+C-c C-q
+** Creating source block
+C-c C-, s
