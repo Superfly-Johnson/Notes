@@ -1,0 +1,13 @@
+#+TITLE: Superfly's git notes
+#+AUTHOR: Superfly Johnson
+#+DESCRIPTION: Superfly's git-related notes and documentation.\
+#+STARTUP: showeverything
+
+* TABLE OF CONTENTS                                              :TOC_2:
+
+* Git related notes
+This file is meant to serve as a reminder for when I inevitably forget how to do something in git. 
+** Upload git branch to new repository
+1. Start a new repository
+2. cd into your local directory
+3. git push example.com/accountname/new-repository-name +new-project:master +branch:newbranchname
