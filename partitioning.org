@@ -1,0 +1,12 @@
+#+TITLE: Superfly's partitiong notes
+#+AUTHOR: Superfly Johnson
+#+DESCRIPTION: Superfly's partitiong-related notes and documentation.
+#+STARTUP: showeverything
+
+* LVM
+** Creating a logical volume the exact size of another partition
+As superuser, execute
+#+begin_example sh
+lvcreate -L $(blockdev --getsize64 /dev/example)b Rota-7t3-vg -n Rota-3t7-MIRROR
+#+end_example
+Where example corresponds to the device that is to be used as a source size
